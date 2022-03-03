@@ -1,0 +1,10 @@
+telnet smtp-external.amer.EXAMPLE.online 587
+HELO smtp-external.amer.EXAMPLE.online
+auth login
+c3ZjLXNwZC1vcmFjbGU=1qw23d      --> Change to login name in converted to base 64
+b3JTVkAxNjQwMTIzhyj             --> Change to base 64 converted password
+MAIL FROM:svc-spd-oracle@example.com
+RCPT TO:adrianojiu@example2.com
+DATA
+ola
+.
